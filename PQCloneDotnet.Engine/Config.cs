@@ -1,6 +1,6 @@
-using PGCloneDotnet.Engine.Models;
+using PQCloneDotnet.Engine.Models;
 
-namespace  PGCloneDotNet.Engine;
+namespace  PQCloneDotNet.Engine;
 
 /// <summary>
 /// This holds the current application's configuration state.

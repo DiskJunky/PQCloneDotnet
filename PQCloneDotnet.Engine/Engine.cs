@@ -1,4 +1,4 @@
-namespace PGCloneDotNet.Engine;
+namespace PQCloneDotNet.Engine;
 
 /// <summary>
 /// This manages the main game elements, takes the game configuration, and progresses

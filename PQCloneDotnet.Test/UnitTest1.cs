@@ -1,4 +1,4 @@
-namespace PGCloneDotnet.Test;
+namespace PQCloneDotnet.Test;
 
 public class UnitTest1
 {

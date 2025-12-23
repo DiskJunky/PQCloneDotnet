@@ -1,4 +1,4 @@
-﻿namespace PGCloneDotnet.Engine.Models;
+﻿namespace PQCloneDotnet.Engine.Models;
 
 public class Modifier
 {
