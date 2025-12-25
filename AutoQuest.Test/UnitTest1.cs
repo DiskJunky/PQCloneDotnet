@@ -1,4 +1,4 @@
-namespace PQCloneDotnet.Test;
+namespace AutoQuest.Test;
 
 public class UnitTest1
 {

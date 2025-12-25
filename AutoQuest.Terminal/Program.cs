@@ -1,8 +1,8 @@
-﻿using PQCloneDotNet.Engine;
+﻿using AutoQuest.Engine;
 
 using Spectre.Console;
 
-namespace  PGCloneDotnet.Terminal;
+namespace  AutoQuest.Terminal;
 
 public static class Program
 {

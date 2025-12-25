@@ -1,5 +1,6 @@
+using System;
 
-namespace PQCloneDotNet.Engine;
+namespace AutoQuest.Engine;
 
 /// <summary>
 /// This manages the main game elements, takes the game configuration, and progresses

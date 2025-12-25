@@ -1,4 +1,4 @@
-﻿namespace PQCloneDotnet.Engine.Models;
+﻿namespace AutoQuest.Engine.Models;
 
 public class Modifier
 {
