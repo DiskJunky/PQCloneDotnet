@@ -1,10 +1,5 @@
-<<<<<<<< HEAD:PQCloneDotnet.Engine/Engine.cs
-namespace PQCloneDotNet.Engine;
-========
-using System;
 
-namespace PGCloneDotNet.Engine;
->>>>>>>> develop:PQCloneDotnet.Engine/GameEngine.cs
+namespace PQCloneDotNet.Engine;
 
 /// <summary>
 /// This manages the main game elements, takes the game configuration, and progresses
