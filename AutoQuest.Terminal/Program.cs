@@ -18,8 +18,8 @@ public static class Program
             //.Expand()
             .Title("Player Stats")
             .HideHeaders();
-        playerStats.AddColumn(string.Empty).Collapse();
-        playerStats.AddColumn(string.Empty).Expand();
+        playerStats.AddColumn(string.Empty, c => c.Width(18));
+        playerStats.AddColumn(string.Empty);
 
         var player = engine.Player;
         playerStats.AddRow("Name:", $"[cyan bold]{player.Name}[/]");
@@ -29,12 +29,13 @@ public static class Program
         // add the activity panel
         var activity = new Table().RoundedBorder()
                                         .BorderColor(Color.Gray)
-                                        //.Expand()
+                                        .Expand()
                                         .Title("Activity");
-        activity.AddColumn("Time").Collapse();
-        activity.AddColumn("Message").Expand();
+        activity.AddColumn("Time", c => c.Width = 12);
+        activity.AddColumn("Message");
         
         // create the overall layout
+        // TODO: convert to a Grid()?
         var desktop = new Table().RoundedBorder()
             .BorderColor(Color.Gray)
             .Expand()
